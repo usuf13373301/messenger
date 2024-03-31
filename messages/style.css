@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: yellow;
+    margin: 0 0 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.message {
+    padding: 5px;
+    background-color: darkcyan;
+    color: black;
+    border: 0;
+    border-radius: 10px;
+    width: 25%;
+    margin: 10px;
+}
+
+.user {
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.text {
+    display: flex;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
